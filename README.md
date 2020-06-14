@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação Ecoleta usando Create React App, TypeScript, Axios, React Icons, Leaflet e react-router-dom.
+Aplicação Ecoleta usando Create React App, TypeScript, Axios, React Icons, Leaflet e react-router-dom consumindo os recursos da API do [Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta).
 
 ## Índice
 
@@ -29,6 +29,8 @@ Aplicação Ecoleta usando Create React App, TypeScript, Axios, React Icons, Lea
 - [Utilizados no Projeto](#utilizados-no-projeto)
 
   - [Bibliotecas](#bibliotecas)
+
+  - [APIs](#apis)
 
 ## Capturas de Tela
 
@@ -70,3 +72,25 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router-dom.md)
 
 - [TypeScript](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/typescript.md)
+
+### APIs
+
+- **[Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta)**
+
+  - **Rotas**
+
+    - Pontos de coleta
+
+      - Cria ponto de coleta
+
+    - Itens
+
+      - Lista itens
+
+- **[IBGE API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/ibge-api.md)**
+
+  - **Rotas**
+
+    - Lista todos os estados
+
+    - Lista todos os municípios de um estado selecionado
