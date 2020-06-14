@@ -10,13 +10,19 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação Ecoleta usando Create React App, TypeScript, Axios, React Icons, Leaflet e react-router-dom consumindo os recursos da API do [Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta).
+Aplicação Ecoleta usando Create React App, TypeScript, Axios, React Icons, Leaflet, react-dropzone e react-router-dom consumindo os recursos da API do [Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta).
 
 ## Índice
 
 - [Capturas de Tela](#capturas-de-tela)
 
-  - [Principal](#principal)
+  - [Home](#home)
+
+  - [Cadastro do ponto de coleta - Imagem](#cadastro-do-ponto-de-coleta---imagem)
+
+  - [Cadastro do ponto de coleta - Dados](#cadastro-do-ponto-de-coleta---dados)
+
+  - [Cadastro do ponto de coleta - Itens](#cadastro-do-ponto-de-coleta---itens)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -34,10 +40,25 @@ Aplicação Ecoleta usando Create React App, TypeScript, Axios, React Icons, Lea
 
 ## Capturas de Tela
 
-### Principal
+### Home
 
-![Main](/.github/assets/main.png)
-Nesta única tela estão todos os cards com dados vindos de uma lista, sendo possível movê-los de lugar, arrastando e soltando.
+![Home](/.github/assets/home.png)
+Esta é a primeira tela, que é a apresentação do projeto, podendo cadastrar um ponto de coleta.
+
+### Cadastro do ponto de coleta - Imagem
+
+![Create Point - Image](/.github/assets/create-point-image.png)
+Nesta tela de cadastro, é possível adicionar uma imagem do estabelecimento, arrastando e soltando o arquivo.
+
+### Cadastro do ponto de coleta - Dados
+
+![Create Point - Data](/.github/assets/create-point-data.png)
+Ao rolar a página, nesta parte, é necessário preencher os dados do estabelecimento, seu endereço e também selecionar o endereço no mapa.
+
+### Cadastro do ponto de coleta - Itens
+
+![Create Point - Items](/.github/assets/create-point-items.png)
+Ao rolar para esta última parte, é necessário selecionar os itens que o estabelecimento coleta e concluir o cadastro.
 
 ## Desenvolvimento
 
@@ -59,6 +80,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 - [@types/react-leaflet](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@types-react-leaflet.md)
 
+- [@types/react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@types-react-router-dom.md)
+
 - [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
 
 - [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
@@ -66,6 +89,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [Leaflet](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/leaflet.md)
 
 - [React Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-icons.md)
+
+- [react-dropzone](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-dropzone.md)
 
 - [React-Leaflet](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-leaflet.md)
 
