@@ -1,121 +1,63 @@
-# ReactJS - Ecoleta
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="400px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/reactjs-ecoleta/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/reactjs-ecoleta.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/reactjs-ecoleta.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-ecoleta.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-ecoleta.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-ecoleta.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-ecoleta.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  ReactJS - Ecoleta
+</h3>
 
-Aplicação Ecoleta usando Create React App, TypeScript, Axios, React Icons, Leaflet, react-dropzone e react-router-dom consumindo os recursos da API do [Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta).
+<p align="center">
+  :recycle: Ecoleta Application using Create React App, TypeScript, Axios, React Icons, Leaflet, react-dropzone, react-router-dom and consuming the features of the IBGE API and Node.js - Ecoleta API
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-ecoleta.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-ecoleta.svg?color=00A83A">
 
-  - [Home](#home)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Cadastro do ponto de coleta - Imagem](#cadastro-do-ponto-de-coleta---imagem)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Cadastro do ponto de coleta - Dados](#cadastro-do-ponto-de-coleta---dados)
+<p align="center">
+  <a href="#computer-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Cadastro do ponto de coleta - Itens](#cadastro-do-ponto-de-coleta---itens)
+## :computer: Demo
 
-- [Desenvolvimento](#desenvolvimento)
+![Demo](/.github/assets/demo.gif)
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+## :wrench: Install and run
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+_ps: Before running the app, start the [Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta) backend._
 
-  - [Execução do Projeto](#execução-do-projeto)
-  
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/reactjs-ecoleta
 
-  - [APIs](#apis)
+# Entry in folder
+cd reactjs-ecoleta
 
-## Capturas de Tela
+# Install deps with npm or yarn
+npm install | yarn
 
-### Home
+# Launch the app with npm or yarn
+npm start | yarn start
+```
 
-![Home](/.github/assets/home.png)
-Esta é a primeira tela, que é a apresentação do projeto, podendo cadastrar um ponto de coleta.
+## :memo: License
 
-### Cadastro do ponto de coleta - Imagem
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-![Create Point - Image](/.github/assets/create-point-image.png)
-Nesta tela de cadastro, é possível adicionar uma imagem do estabelecimento, arrastando e soltando o arquivo.
+---
 
-### Cadastro do ponto de coleta - Dados
-
-![Create Point - Data](/.github/assets/create-point-data.png)
-Ao rolar a página, nesta parte, é necessário preencher os dados do estabelecimento, seu endereço e também selecionar o endereço no mapa.
-
-### Cadastro do ponto de coleta - Itens
-
-![Create Point - Items](/.github/assets/create-point-items.png)
-Ao rolar para esta última parte, é necessário selecionar os itens que o estabelecimento coleta e concluir o cadastro.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Execução de Projeto para Desenvolvimento` ou `Construção e Execução de Projeto para Produção`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [@types/react-leaflet](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@types-react-leaflet.md)
-
-- [@types/react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@types-react-router-dom.md)
-
-- [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [Leaflet](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/leaflet.md)
-
-- [React Icons](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-icons.md)
-
-- [react-dropzone](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-dropzone.md)
-
-- [React-Leaflet](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-leaflet.md)
-
-- [react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router-dom.md)
-
-- [TypeScript](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/typescript.md)
-
-### APIs
-
-- **[Node.js - Ecoleta](https://github.com/osvaldokalvaitir/nodejs-ecoleta)**
-
-  - **Rotas**
-
-    - Pontos de coleta
-
-      - Cria ponto de coleta
-
-    - Itens
-
-      - Lista itens
-
-- **[IBGE API](https://github.com/osvaldokalvaitir/projects-settings/blob/master/api/ibge-api.md)**
-
-  - **Rotas**
-
-    - Lista todos os estados
-
-    - Lista todos os municípios de um estado selecionado
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
